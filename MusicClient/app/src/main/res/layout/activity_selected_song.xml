@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedsongActivity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@drawable/customborder2"
+        android:id="@+id/songImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        >
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Song Name:">
+        </TextView>
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Name">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Song Artist(s):">
+
+        </TextView>
+        <TextView
+            android:id="@+id/songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="Artist">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_gravity="center">-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/stop"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:src="@drawable/stop"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:maxHeight="80dp"-->
+<!--            android:maxWidth="80dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="stop">-->
+
+<!--        </ImageButton>-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/pause"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:maxHeight="80dp"-->
+<!--            android:maxWidth="80dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:src="@drawable/pause"-->
+<!--            android:text="pause">-->
+<!--        </ImageButton>-->
+
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>

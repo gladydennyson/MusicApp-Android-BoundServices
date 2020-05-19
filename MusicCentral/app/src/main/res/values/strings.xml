@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MusicCentral</string>
+
+
+
+    <string-array name="songTitle">
+        <item>Believer</item>
+        <item>Honeybee</item>
+        <item>Chandelier</item>
+        <item>Sunset Lover</item>
+        <item>Unstoppable</item>
+        <item>See You Again</item>
+        <item>Havana</item>
+        <item>Move Your Dreams</item>
+    </string-array>
+
+    <string-array name="songArtist">
+        <item>Imagine Dragons, To The Stars</item>
+        <item>The Head and the Heart</item>
+        <item>Sia</item>
+        <item>Petit Biscuit</item>
+        <item>Sia</item>
+        <item>Wiz Khalifa</item>
+        <item>Camila Cabello</item>
+        <item>Albert Vishi, Sia</item>
+    </string-array>
+
+    <string-array name="songURL">
+        <item>https://www.dropbox.com/s/hgots0aimj48sge/Imagine-Dragons-Believer.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/rqdwf9xwdnx8047/Honeybee-The-Head-and-the-Heart.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/3d9qvxpj1uuz0vt/Chandelier-Sia-lyrics.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/nab2vd4qybp2mt0/Petit-Biscuit-Sunset-Lover-Offic.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/3mus8mc24np6huw/Sia-Unstoppable-Audio.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/du5pnjhys3tqxac/Wiz-Khalifa-See-You-Again-ft-Cha.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/ikanppjs5s64423/Camila-Cabello-Havana-Official-A.mp3?dl=1</item>
+        <item>https://www.dropbox.com/s/8z6wz7c0dbfho5l/Sia-feat-Albert-Vishi-Move-Your.mp3?dl=1</item>
+    </string-array>
+
+</resources>

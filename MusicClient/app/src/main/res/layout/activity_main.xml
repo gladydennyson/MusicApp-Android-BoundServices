@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/active"
+            android:layout_gravity="center"
+            android:text="Service is not active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Start Service"
+                android:layout_marginRight="10dp"
+                android:textSize="18dp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/stop_button"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Stop Service"
+                android:textSize="18dp">
+
+            </Button>
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/getallsongs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Get All Songs"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="18dp" >
+    </Button>
+
+
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listofsongs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/musiccontrollayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/customborder">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/stop_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Stop"
+            android:src="@drawable/stop"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:maxHeight="80dp"
+            android:maxWidth="80dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="20dp"
+            android:textSize="24sp"
+
+            >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/pause_music"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pause"
+            android:text="Pause"
+            android:layout_gravity="center"
+            android:textSize="24sp">
+
+        </ImageButton>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
